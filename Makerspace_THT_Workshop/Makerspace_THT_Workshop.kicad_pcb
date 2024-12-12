@@ -127,7 +127,7 @@
 			(mirror no)
 			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "../../../Gerbs/")
+			(outputdirectory "../../../../Gerbs/")
 		)
 	)
 	(net 0 "")
@@ -5419,7 +5419,7 @@
 		)
 		(fp_arc
 			(start 6.75 4.1)
-			(mid 6.328494 5.14338)
+			(mid 6.328497 5.143383)
 			(end 5.3 5.6)
 			(stroke
 				(width 0.12)
@@ -5564,7 +5564,7 @@
 		)
 		(fp_arc
 			(start 7.25 4.1)
-			(mid 6.682004 5.496829)
+			(mid 6.682005 5.496831)
 			(end 5.3 6.1)
 			(stroke
 				(width 0.05)
@@ -5586,7 +5586,7 @@
 		)
 		(fp_arc
 			(start 5.3 6.1)
-			(mid 4.714381 5.984481)
+			(mid 4.714387 5.984475)
 			(end 4.22 5.65)
 			(stroke
 				(width 0.05)
@@ -5619,7 +5619,7 @@
 		)
 		(fp_arc
 			(start -4.22 5.65)
-			(mid -4.121559 5.533645)
+			(mid -4.121559 5.533644)
 			(end -4.02 5.42)
 			(stroke
 				(width 0.05)
@@ -5733,7 +5733,7 @@
 		)
 		(fp_arc
 			(start 6.6 4.1)
-			(mid 6.222443 5.037354)
+			(mid 6.222442 5.03735)
 			(end 5.3 5.45)
 			(stroke
 				(width 0.1)
