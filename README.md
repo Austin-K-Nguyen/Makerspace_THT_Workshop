@@ -41,3 +41,12 @@ The provided bill of materials or BOM provided above, details all the nessassary
 
 * A note on the LM358 op-amp ic, again this 8-pin duel op-amp ic has a standard pinout, so feel free to change out the chip for any number of duel op-amp, 8-pin, standard pinout ics that operate at preferably below 3v.
 
+<h2 align="left">Tools</h2>
+
+You'll only need the basic tools to solder for this this kit including,
+* Soldering Iron
+* Lead-Free Solder
+* Flush Cutters / Wire Cutters
+
+And Thats it!
+
