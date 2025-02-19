@@ -1939,18 +1939,6 @@
 		(uuid "1053e112-bd0c-42d0-b08f-893e69e61fe2")
 	)
 	(junction
-		(at 209.55 100.33)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2f81c064-7b21-40b5-8e58-d86b749c7580")
-	)
-	(junction
-		(at 228.6 109.22)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "34365175-a575-4b02-9a47-6c7a906d83cc")
-	)
-	(junction
 		(at 69.85 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2258,16 +2246,6 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 100.33) (xy 209.55 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4ddfddc7-0900-4cf9-a5ce-a044011019b8")
-	)
-	(wire
-		(pts
 			(xy 60.96 80.01) (xy 176.53 80.01)
 		)
 		(stroke
@@ -2348,16 +2326,6 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 109.22) (xy 228.6 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6f47bf80-5916-4487-9c2d-b5e840ec6db7")
-	)
-	(wire
-		(pts
 			(xy 217.17 100.33) (xy 219.71 100.33)
 		)
 		(stroke
@@ -2385,16 +2353,6 @@
 			(type default)
 		)
 		(uuid "79ab1191-682c-48e1-9657-cb60eafa37cf")
-	)
-	(wire
-		(pts
-			(xy 227.33 109.22) (xy 228.6 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7a55d0c2-21c7-4236-9034-6b5db80efe45")
 	)
 	(wire
 		(pts
@@ -2465,16 +2423,6 @@
 			(type default)
 		)
 		(uuid "976246b2-c46f-412f-b9bf-a7086f78e5d3")
-	)
-	(wire
-		(pts
-			(xy 217.17 109.22) (xy 219.71 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9a75b07d-cd39-4896-b32f-464e638e8b07")
 	)
 	(wire
 		(pts
@@ -2688,7 +2636,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 100.33) (xy 228.6 109.22)
+			(xy 228.6 100.33) (xy 228.6 114.3)
 		)
 		(stroke
 			(width 0)
@@ -2893,7 +2841,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Potentiometer_THT:Potentiometer_ACP_CA9-V10_Vertical"
+		(property "Footprint" "Custom_Potentiometer:601030_AVX"
 			(at 100.33 102.87 0)
 			(effects
 				(font
@@ -2963,7 +2911,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 148.59 103.378 90)
 			(effects
 				(font
@@ -3118,7 +3066,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 120.65 91.948 90)
 			(effects
 				(font
@@ -3214,28 +3162,28 @@
 			)
 		)
 		(pin "7"
-			(uuid "5c24b11f-65af-421f-8205-68da636fbe62")
+			(uuid "5c24b11f-65af-421f-8205-68da636fbe63")
 		)
 		(pin "8"
-			(uuid "12a3c128-e185-4996-a057-b0db3fceb17f")
+			(uuid "12a3c128-e185-4996-a057-b0db3fceb180")
 		)
 		(pin "3"
-			(uuid "fa901034-fbd1-4348-84fb-0114eac0c21d")
+			(uuid "fa901034-fbd1-4348-84fb-0114eac0c21e")
 		)
 		(pin "4"
-			(uuid "1863513f-0700-4b2d-90b1-96119ee60639")
+			(uuid "1863513f-0700-4b2d-90b1-96119ee6063a")
 		)
 		(pin "5"
-			(uuid "c2cdcafe-defc-46ef-96c2-838b8ff1d13e")
+			(uuid "c2cdcafe-defc-46ef-96c2-838b8ff1d13f")
 		)
 		(pin "6"
-			(uuid "54baff04-0cfe-441b-9baa-b09f79eb52c3")
+			(uuid "54baff04-0cfe-441b-9baa-b09f79eb52c4")
 		)
 		(pin "2"
-			(uuid "877a4b68-fad0-4b67-a72b-3de9004ea77a")
+			(uuid "877a4b68-fad0-4b67-a72b-3de9004ea77b")
 		)
 		(pin "1"
-			(uuid "eb62e1c5-74de-4347-b898-207b79c76bff")
+			(uuid "eb62e1c5-74de-4347-b898-207b79c76c00")
 		)
 		(instances
 			(project "Makerspace_THT_Workshop"
@@ -3274,7 +3222,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 68.072 91.44 90)
 			(effects
 				(font
@@ -3414,7 +3362,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x01_P1.00mm_Vertical"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D4.0mm"
 			(at 69.85 64.77 0)
 			(effects
 				(font
@@ -3480,7 +3428,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Battery:BatteryHolder_Keystone_3001_1x12mm"
+		(property "Footprint" "Custom_Batteries:BK-913_MPD"
 			(at 48.26 97.536 90)
 			(effects
 				(font
@@ -3548,7 +3496,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 78.74 104.648 90)
 			(effects
 				(font
@@ -3617,7 +3565,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 197.612 96.52 90)
 			(effects
 				(font
@@ -3654,73 +3602,6 @@
 			(project "Makerspace_THT_Workshop"
 				(path "/5883041f-9a7b-4515-b6ee-89cbb07e7cdb"
 					(reference "R8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 213.36 109.22 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8c82e84f-c080-4df0-97eb-1c7351f1ff92")
-		(property "Reference" "R10"
-			(at 213.36 104.394 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100"
-			(at 213.36 106.934 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 213.36 110.998 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 213.36 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 213.36 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "863d1170-62dd-4605-bb42-51dac60ee2c7")
-		)
-		(pin "2"
-			(uuid "b5dcd8b3-eca6-4a39-9320-d20bbcfff824")
-		)
-		(instances
-			(project "Makerspace_THT_Workshop"
-				(path "/5883041f-9a7b-4515-b6ee-89cbb07e7cdb"
-					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -3824,7 +3705,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 137.922 105.41 90)
 			(effects
 				(font
@@ -3852,10 +3733,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "fb9369f7-3f07-47bc-a0a6-3d7a79082e6b")
+			(uuid "fb9369f7-3f07-47bc-a0a6-3d7a79082e6c")
 		)
 		(pin "1"
-			(uuid "24ce6859-df51-48fc-ad37-5d03acc41d00")
+			(uuid "24ce6859-df51-48fc-ad37-5d03acc41d01")
 		)
 		(instances
 			(project "Makerspace_THT_Workshop"
@@ -3891,7 +3772,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 213.36 102.108 90)
 			(effects
 				(font
@@ -3959,7 +3840,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 88.9 104.648 90)
 			(effects
 				(font
@@ -3987,10 +3868,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "f56fb5f7-1288-418d-ab43-e3860dd20298")
+			(uuid "f56fb5f7-1288-418d-ab43-e3860dd20299")
 		)
 		(pin "1"
-			(uuid "a7266918-38de-45ee-921e-791a2ed107ff")
+			(uuid "a7266918-38de-45ee-921e-791a2ed10800")
 		)
 		(instances
 			(project "Makerspace_THT_Workshop"
@@ -4029,7 +3910,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 112.522 102.87 90)
 			(effects
 				(font
@@ -4057,10 +3938,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "67bc8d6a-5279-4cbf-b4c7-a542516fbe19")
+			(uuid "67bc8d6a-5279-4cbf-b4c7-a542516fbe1a")
 		)
 		(pin "2"
-			(uuid "4e9b78be-106b-4b22-97fe-e472a2fec60a")
+			(uuid "4e9b78be-106b-4b22-97fe-e472a2fec60b")
 		)
 		(instances
 			(project "Makerspace_THT_Workshop"
@@ -4262,82 +4143,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "aee9ec7f-388d-4725-a39e-3b638ccd25a0")
+			(uuid "aee9ec7f-388d-4725-a39e-3b638ccd25a1")
 		)
 		(pin "2"
-			(uuid "a5f45134-90ac-41f2-a087-170e4152fcc0")
+			(uuid "a5f45134-90ac-41f2-a087-170e4152fcc1")
 		)
 		(instances
 			(project "Makerspace_THT_Workshop"
 				(path "/5883041f-9a7b-4515-b6ee-89cbb07e7cdb"
 					(reference "C1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 223.52 109.22 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c8aa98c9-b083-422b-a3f6-4fbdc50f4d57")
-		(property "Reference" "D2"
-			(at 219.964 104.394 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LED"
-			(at 219.964 106.934 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_THT:LED_D5.0mm_5.0mm_Pitch"
-			(at 223.52 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 223.52 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 223.52 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a5a743e9-1db0-410e-b2b8-6498c3d2de92")
-		)
-		(pin "2"
-			(uuid "9c0cbc28-dbce-4a62-a311-fa33864d8fd8")
-		)
-		(instances
-			(project "Makerspace_THT_Workshop"
-				(path "/5883041f-9a7b-4515-b6ee-89cbb07e7cdb"
-					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -4455,7 +4269,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_THT:LED_D5.0mm_5.0mm_Pitch"
+		(property "Footprint" "LED_THT:LED_D5.0mm"
 			(at 223.52 100.33 0)
 			(effects
 				(font
@@ -4553,28 +4367,28 @@
 			)
 		)
 		(pin "7"
-			(uuid "5c24b11f-65af-421f-8205-68da636fbe62")
+			(uuid "5c24b11f-65af-421f-8205-68da636fbe64")
 		)
 		(pin "8"
-			(uuid "12a3c128-e185-4996-a057-b0db3fceb17f")
+			(uuid "12a3c128-e185-4996-a057-b0db3fceb181")
 		)
 		(pin "3"
-			(uuid "fa901034-fbd1-4348-84fb-0114eac0c21d")
+			(uuid "fa901034-fbd1-4348-84fb-0114eac0c21f")
 		)
 		(pin "4"
-			(uuid "1863513f-0700-4b2d-90b1-96119ee60639")
+			(uuid "1863513f-0700-4b2d-90b1-96119ee6063b")
 		)
 		(pin "5"
-			(uuid "c2cdcafe-defc-46ef-96c2-838b8ff1d13e")
+			(uuid "c2cdcafe-defc-46ef-96c2-838b8ff1d140")
 		)
 		(pin "6"
-			(uuid "54baff04-0cfe-441b-9baa-b09f79eb52c3")
+			(uuid "54baff04-0cfe-441b-9baa-b09f79eb52c5")
 		)
 		(pin "2"
-			(uuid "877a4b68-fad0-4b67-a72b-3de9004ea77a")
+			(uuid "877a4b68-fad0-4b67-a72b-3de9004ea77c")
 		)
 		(pin "1"
-			(uuid "eb62e1c5-74de-4347-b898-207b79c76bff")
+			(uuid "eb62e1c5-74de-4347-b898-207b79c76c01")
 		)
 		(instances
 			(project "Makerspace_THT_Workshop"
